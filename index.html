@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Др. Айгуль Галимова | Косметология в Лениногорске</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Dr. Galimova</div>
+                <nav class="nav">
+                    <a href="#services" class="nav-link">Услуги</a>
+                    <a href="#about" class="nav-link">Обо мне</a>
+                    <a href="#portfolio" class="nav-link">Работы</a>
+                    <a href="#reviews" class="nav-link">Отзывы</a>
+                    <a href="#contact" class="nav-link">Контакты</a>
+                </nav>
+                <button class="btn btn-primary" id="openModal">Записаться</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Косметология в Лениногорске</h1>
+                    <p class="hero-subtitle">Безопасные процедуры для красоты и молодости кожи</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large" id="openModalHero">Записаться онлайн</button>
+                        <a href="#portfolio" class="btn btn-outline btn-large">Посмотреть работы</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero1.jpg" alt="Др. Айгуль Галимова">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши услуги</h2>
+                <p class="section-subtitle">Профессиональные процедуры с использованием современных технологий</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💉</div>
+                    <h3 class="service-title">RF-лифтинг</h3>
+                    <p class="service-desc">Омоложение кожи без хирургического вмешательства</p>
+                    <div class="service-price">от 3 500 ₽</div>
+                    <button class="btn btn-secondary service-btn" data-service="RF-лифтинг">Подробнее</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3 class="service-title">Чистка лица</h3>
+                    <p class="service-desc">Глубокое очищение и уход за кожей</p>
+                    <div class="service-price">от 2 000 ₽</div>
+                    <button class="btn btn-secondary service-btn" data-service="Чистка лица">Подробнее</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌟</div>
+                    <h3 class="service-title">Ботулинотерапия</h3>
+                    <p class="service-desc">Коррекция мимических морщин</p>
+                    <div class="service-price">от 4 000 ₽</div>
+                    <button class="btn btn-secondary service-btn" data-service="Ботулинотерапия">Подробнее</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💫</div>
+                    <h3 class="service-title">Мезотерапия</h3>
+                    <p class="service-desc">Инъекционное омоложение и увлажнение</p>
+                    <div class="service-price">от 3 000 ₽</div>
+                    <button class="btn btn-secondary service-btn" data-service="Мезотерапия">Подробнее</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💎</div>
+                    <h3 class="service-title">Плазмотерапия</h3>
+                    <p class="service-desc">Омоложение с использованием плазмы крови</p>
+                    <div class="service-price">от 4 500 ₽</div>
+                    <button class="btn btn-secondary service-btn" data-service="Плазмотерапия">Подробнее</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌸</div>
+                    <h3 class="service-title">Уходовые процедуры</h3>
+                    <p class="service-desc">Комплексный уход за кожей лица</p>
+                    <div class="service-price">от 1 500 ₽</div>
+                    <button class="btn btn-secondary service-btn" data-service="Уходовые процедуры">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/doctoralbina.jpg" alt="Др. Айгуль Галимова">
+                </div>
+                <div class="about-text">
+                    <h2 class="about-title">Обо мне</h2>
+                    <p class="about-desc">Меня зовут Айгуль Галимова, я врач-косметолог с многолетним опытом работы. Моя миссия — помогать женщинам чувствовать себя красивыми и уверенными.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <span class="feature-icon">✓</span>
+                            <span class="feature-text">Сертифицированный специалист</span>
+                        </div>
+                        <div class="about-feature">
+                            <span class="feature-icon">✓</span>
+                            <span class="feature-text">Индивидуальный подход к каждому клиенту</span>
+                        </div>
+                        <div class="about-feature">
+                            <span class="feature-icon">✓</span>
+                            <span class="feature-text">Использую только проверенные методики</span>
+                        </div>
+                        <div class="about-feature">
+                            <span class="feature-icon">✓</span>
+                            <span class="feature-text">Работаю в Лениногорске, Альметьевске, Бугульме</span>
+                        </div>
+                    </div>
+                    <a href="https://www.instagram.com/dr.galimova_aigul" target="_blank" class="btn btn-outline btn-instagram">
+                        <span class="instagram-icon">📷</span>
+                        Посмотреть работы в Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши работы</h2>
+                <p class="section-subtitle">Результаты до и после процедур</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/350x450?text=До/После+1" alt="Результат 1">
+                    <div class="portfolio-caption">RF-лифтинг</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/350x450?text=До/После+2" alt="Результат 2">
+                    <div class="portfolio-caption">Чистка лица</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/350x450?text=До/После+3" alt="Результат 3">
+                    <div class="portfolio-caption">Ботулинотерапия</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/350x450?text=До/После+4" alt="Результат 4">
+                    <div class="portfolio-caption">Мезотерапия</div>
+                </div>
+            </div>
+            <div class="portfolio-more">
+                <a href="https://www.instagram.com/dr.galimova_aigul" target="_blank" class="btn btn-primary">
+                    Больше работ в Instagram →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Отзывы клиентов</h2>
+                <p class="section-subtitle">Что говорят о моих процедурах</p>
+            </div>
+            <div class="reviews-slider">
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Очень довольна результатом! Айгуль — настоящий профессионал своего дела. Процедура прошла комфортно, эффект превзошел ожидания."</p>
+                    <div class="review-author">— Анна, Лениногорск</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Приятная атмосфера, внимательное отношение. Кожа после чистки сияет! Обязательно приду снова."</p>
+                    <div class="review-author">— Марина, Альметьевск</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Долго искала хорошего косметолога в нашем городе. Нашла! Рекомендую всем, кто ценит качество и профессионализм."</p>
+                    <div class="review-author">— Елена, Бугульма</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Контакты</h2>
+                <p class="section-subtitle">Свяжитесь со мной для записи или консультации</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">
+                            <h4>Адреса</h4>
+                            <p>Лениногорск, Альметьевск, Бугульма</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-text">
+                            <h4>Телефон</h4>
+                            <p>+7 (XXX) XXX-XX-XX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>dr.galimova@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div class="contact-text">
+                            <h4>Режим работы</h4>
+                            <p>Пн-Сб: 9:00 - 20:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 class="form-title">Записаться на процедуру</h3>
+                    <form id="appointmentForm">
+                        <div class="form-group">
+                            <label for="name">Ваше имя *</label>
+                            <input type="text" id="name" required placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон *</label>
+                            <input type="tel" id="phone" required placeholder="+7 (___) ___-__-__">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Выберите процедуру *</label>
+                            <select id="service" required>
+                                <option value="">Выберите услугу</option>
+                                <option value="rf">RF-лифтинг</option>
+                                <option value="cleaning">Чистка лица</option>
+                                <option value="botox">Ботулинотерапия</option>
+                                <option value="meso">Мезотерапия</option>
+                                <option value="plasma">Плазмотерапия</option>
+                                <option value="care">Уходовые процедуры</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Комментарий</label>
+                            <textarea id="message" rows="3" placeholder="Дополнительная информация"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="modal-close" id="closeModal">&times;</span>
+            <h3 class="modal-title">Записаться на процедуру</h3>
+            <p class="modal-subtitle">Выберите услугу и оставьте контакты</p>
+            <form id="modalForm">
+                <div class="form-group">
+                    <label for="modalName">Ваше имя *</label>
+                    <input type="text" id="modalName" required placeholder="Введите ваше имя">
+                </div>
+                <div class="form-group">
+                    <label for="modalPhone">Телефон *</label>
+                    <input type="tel" id="modalPhone" required placeholder="+7 (___) ___-__-__">
+                </div>
+                <div class="form-group">
+                    <label for="modalService">Выберите процедуру *</label>
+                    <select id="modalService" required>
+                        <option value="">Выберите услугу</option>
+                        <option value="rf">RF-лифтинг</option>
+                        <option value="cleaning">Чистка лица</option>
+                        <option value="botox">Ботулинотерапия</option>
+                        <option value="meso">Мезотерапия</option>
+                        <option value="plasma">Плазмотерапия</option>
+                        <option value="care">Уходовые процедуры</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Записаться</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Dr. Galimova</div>
+                <div class="footer-text">
+                    <p>Косметология в Лениногорске, Альметьевске, Бугульме</p>
+                    <p>© 2026. Все права защищены.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/dr.galimova_aigul" target="_blank" class="social-link">📷 Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
